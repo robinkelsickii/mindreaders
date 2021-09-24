@@ -15,8 +15,19 @@
 - revealBtn: shows up if page 5 is visible and is the link between page 5 and page 6. 
 
 ## Home Page
-- need a go button that displays the next page but also hides the home page. 
-- needs to display a specific text
-- when I press go, I will remove home page text and replace it with page 1 text; I will need to reveal 2 other buttons on the next page; add more little text under the next button. 
+- Displays "big text"
+- displays a "go button"
 
-## Page 1
+### go button
+- sends the game to the next page.
+- hides big text 
+- replaces the big text with another string from big text.
+- displays "next button"
+- displays little text
+
+`Init
+go button is clicked: calls a function that:
+1. hides the text from home page.
+2. replaces the big text with "new text"
+3. makes a "next button" pop up.
+4. makes the "little text" appear.`
