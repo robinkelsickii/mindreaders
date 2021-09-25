@@ -1,33 +1,26 @@
-# The goal of this project is state management.
-## The objectives:
-- use html to render text in the app. 
-- use bootstrap to style the text and make buttons.
-- text and design mobile so that it could fit any size. It is easier to go bigger than go smaller. 
-- create a button that is labled "GO" that takes the app to the "beginning state."
-- create a button that returns the app to its pre- beggining state. 
-- create multiple next buttons that send the app into the next states in chronological order. 
-- a reveal button that links to the last state. 
+Create a page that plays a mind game with a user. 
 
-## The buttons I need: goBtn, nextBtn, resetBtn, revealBtn.
-- goBtn: starts 
-- nextBtn: next page
-- resetBtn: back to main page.
-- revealBtn: shows up if page 5 is visible and is the link between page 5 and page 6. 
-
-## Home Page
-- Displays "big text"
-- displays a "go button"
-
-### go button
-- sends the game to the next page.
-- hides big text 
-- replaces the big text with another string from big text.
-- displays "next button"
-- displays little text
+## First display text on the screen that will display as the instructions. This and a "GO" button will have to diplay in the first state.
+### create a function that refers to the HTML and replaces the text with instructions.
+- create a variable that references the html.
+- perform an innerText function that replaces the text with a string.
 
 `Init
-go button is clicked: calls a function that:
-1. hides the text from home page.
-2. replaces the big text with "new text"
-3. makes a "next button" pop up.
-4. makes the "little text" appear.`
+
+START
+variable.referencehtml = 'string that I would like to replace html with'
+END`
+This code can also work with the button.
+
+## Next create 3 buttons.
+- Go button will start the app. It is simple as changing page 0 to page 1. 
+`Init
+
+Start
+function NextPage (){
+    incremental method
+    state function.
+}
+variable.eventListener('nextPage function')
+END`
+
