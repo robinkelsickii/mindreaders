@@ -27,13 +27,13 @@ resetBtn.addEventListener('click', res());
 function random() {
     let answer = "";
     let randomSymbol = symbol[Math.floor(Math.random() * symbol.length)];
-    for (i = 0; i < 99; i++) {
+    for (i = 0; i <= 99; i++) {
         if (i % 9 === 0) {
-            answer = answer + i + ":" + randomSymbol + "<br>";
+            answer = answer + i + ": " + randomSymbol;
         }
         else {
             var notNine = symbol[Math.floor(Math.random() * symbol.length)];
-            answer = answer + i + ":" + notNine + "<br/>";
+            answer = answer + i + ": " + notNine;
             yourSymbol = randomSymbol;
         }
     }
